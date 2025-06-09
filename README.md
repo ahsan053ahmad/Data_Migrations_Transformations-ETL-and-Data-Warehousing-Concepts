@@ -4,13 +4,13 @@ This repository contains my submission for a data engineering assignment focused
 
 ---
 
-### 🧩 Business Problem
+### Business Problem
 
 Organizations collect data from disparate systems and formats. These data need to be consolidated, transformed, and structured before they can be used for business intelligence and analytics. This lab simulates a data migration task, moving raw operational data into a normalized, analysis-ready format—illustrating the backbone of many enterprise ETL pipelines.
 
 ---
 
-### 📦 Dataset Overview
+### Dataset Overview
 
 The project worked with sample e-commerce transaction data, including:
 
@@ -20,7 +20,7 @@ The project worked with sample e-commerce transaction data, including:
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 - Extract raw data from CSVs using Pandas
 - Clean and standardize data formats
@@ -31,7 +31,7 @@ The project worked with sample e-commerce transaction data, including:
 
 ---
 
-### 🛠️ Solution Approach
+### Solution Approach
 
 1. **Data Inspection & Cleaning**
    - Loaded CSVs into Pandas DataFrames
@@ -55,7 +55,7 @@ The project worked with sample e-commerce transaction data, including:
 
 ---
 
-### 💡 Business Value
+### Business Value
 
 This lab simulates how data engineering supports business analytics:
 
@@ -65,7 +65,7 @@ This lab simulates how data engineering supports business analytics:
 
 ---
 
-### 🚧 Challenges Encountered
+### Challenges Encountered
 
 - Managing surrogate keys across multiple dimension tables
 - Ensuring no loss of transactional granularity in the fact table
